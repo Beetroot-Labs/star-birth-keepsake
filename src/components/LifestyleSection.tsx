@@ -16,10 +16,10 @@ const LifestyleSection = () => {
               style={{ transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)" }}
             >
               <p className="text-sm font-sans font-semibold tracking-[0.2em] uppercase text-accent">
-                A gift they'll treasure
+                Ajándék, amit megőriznek
               </p>
               <h2 className="text-4xl lg:text-5xl font-serif font-semibold leading-[1.05] tracking-tight text-foreground text-balance">
-                The perfect welcome-to-the-world gift
+                A tökéletes „Isten hozott a világon" ajándék
               </h2>
             </div>
             <p
@@ -28,11 +28,12 @@ const LifestyleSection = () => {
               }`}
               style={{ transitionDelay: "0.15s", transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)" }}
             >
-              Every baby arrives under a unique sky. This star map captures that
-              unrepeatable moment — the constellations, the planets, the exact
-              celestial arrangement that witnessed their first breath. Displayed
-              in the nursery, it becomes a conversation piece, a family
-              heirloom, and a daily reminder of that extraordinary night.
+              Minden baba egyedi égbolt alatt érkezik. Ez a csillagtérkép azt a
+              megismételhetetlen pillanatot örökíti meg — a csillagképeket, a
+              bolygókat, a pontos égi elrendezést, amely az első lélegzetvételét
+              kísérte. A babaszobában kiállítva beszélgetések kiindulópontja,
+              családi ereklye és mindennapi emlékeztető arról a különleges
+              éjszakáról.
             </p>
             <div
               className={`pt-2 transition-all duration-700 ${
@@ -44,7 +45,7 @@ const LifestyleSection = () => {
                 href="#configure"
                 className="inline-flex items-center gap-2 text-accent font-sans font-medium text-sm tracking-wide hover:gap-3 transition-all duration-300"
               >
-                Start configuring yours
+                Kezdd el a tervezést
                 <span aria-hidden="true">→</span>
               </a>
             </div>
@@ -58,7 +59,7 @@ const LifestyleSection = () => {
           >
             <img
               src={starMapLifestyle}
-              alt="Star map displayed on a nursery shelf alongside baby items"
+              alt="Csillagtérkép egy babaszoba polcán babakellékek között"
               className="rounded-2xl shadow-xl shadow-primary/5 w-full"
             />
           </div>
