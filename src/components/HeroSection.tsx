@@ -26,23 +26,23 @@ const HeroSection = () => {
               className="text-sm font-sans font-semibold tracking-[0.2em] uppercase text-accent opacity-0 animate-fade-up"
               style={{ animationDelay: "0.1s" }}
             >
-              The night they arrived
+              Az éjszaka, amikor megérkezett
             </p>
             <h1
               className="text-5xl sm:text-6xl lg:text-7xl font-serif font-semibold leading-[0.95] tracking-tight text-foreground opacity-0 animate-fade-up text-balance"
               style={{ animationDelay: "0.25s" }}
             >
-              Capture the sky
+              Örökítsd meg az eget
               <br />
-              <span className="italic font-normal text-accent">of their first night</span>
+              <span className="italic font-normal text-accent">az első éjszakájáról</span>
             </h1>
             <p
               className="text-lg font-sans text-muted-foreground max-w-md leading-relaxed opacity-0 animate-fade-up"
               style={{ animationDelay: "0.4s" }}
             >
-              A hand-crafted hexagonal wooden plate, laser-engraved with the
-              exact star map of the night your baby was born. A keepsake that
-              lasts forever.
+              Kézzel készített, hatszögletű fa tábla, lézerrel gravírozott
+              csillagtérképpel — pontosan arról az éjszakáról, amikor a babád
+              megszületett. Egy emlék, ami örökké megmarad.
             </p>
             <div
               className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-up"
@@ -52,13 +52,13 @@ const HeroSection = () => {
                 href="#configure"
                 className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground font-sans font-medium text-sm tracking-wide rounded-lg shadow-lg shadow-primary/10 hover:shadow-xl hover:shadow-primary/20 transition-shadow duration-300 active:scale-[0.97] transform"
               >
-                Create yours now
+                Készítsd el a sajátod
               </a>
               <a
                 href="#how-it-works"
                 className="inline-flex items-center justify-center px-8 py-4 border border-border text-foreground font-sans font-medium text-sm tracking-wide rounded-lg hover:bg-secondary transition-colors duration-300 active:scale-[0.97] transform"
               >
-                How it works
+                Hogyan működik
               </a>
             </div>
           </div>
@@ -72,7 +72,7 @@ const HeroSection = () => {
               <div className="absolute -inset-8 bg-accent/5 rounded-full blur-3xl" />
               <img
                 src={starMapHero}
-                alt="Hexagonal wooden star map engraved with constellations"
+                alt="Hatszögletű fa csillagtérkép csillagképekkel gravírozva"
                 className="relative w-full max-w-md lg:max-w-lg rounded-2xl shadow-2xl shadow-primary/10"
               />
             </div>

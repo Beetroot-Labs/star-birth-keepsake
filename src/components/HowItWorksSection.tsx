@@ -3,18 +3,18 @@ import { useScrollReveal } from "./useScrollReveal";
 const steps = [
   {
     number: "01",
-    title: "Enter the birth details",
-    description: "Date, time, and location — we'll compute the exact sky.",
+    title: "Add meg a születési adatokat",
+    description: "Dátum, időpont és helyszín — mi kiszámítjuk a pontos égboltot.",
   },
   {
     number: "02",
-    title: "Customize your plate",
-    description: "Choose your engraving text, font, and layout.",
+    title: "Tervezd meg a táblát",
+    description: "Válaszd ki a gravírozás szövegét, betűtípusát és elrendezését.",
   },
   {
     number: "03",
-    title: "We craft & deliver",
-    description: "Handmade in our workshop, shipped in a premium gift box.",
+    title: "Elkészítjük és kiszállítjuk",
+    description: "Kézzel készítve a műhelyünkben, prémium ajándékdobozban szállítva.",
   },
 ];
 
@@ -31,10 +31,10 @@ const HowItWorksSection = () => {
           style={{ transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)" }}
         >
           <p className="text-sm font-sans font-semibold tracking-[0.2em] uppercase text-accent mb-4">
-            Simple & magical
+            Egyszerű és varázslatos
           </p>
           <h2 className="text-4xl lg:text-5xl font-serif font-semibold leading-[1.05] tracking-tight text-foreground text-balance">
-            Three steps to the stars
+            Három lépés a csillagokig
           </h2>
         </div>
 

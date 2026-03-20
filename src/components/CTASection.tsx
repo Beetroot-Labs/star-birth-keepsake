@@ -13,17 +13,17 @@ const CTASection = () => {
           style={{ transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)" }}
         >
           <h2 className="text-4xl lg:text-5xl font-serif font-semibold leading-[1.05] tracking-tight text-primary-foreground text-balance">
-            Their stars are waiting
+            A csillagaid várnak
           </h2>
           <p className="text-primary-foreground/70 font-sans text-lg leading-relaxed max-w-lg mx-auto">
-            It takes less than two minutes to configure. Choose the date, the
-            place, and we'll do the rest.
+            Kevesebb mint két perc az összeállítás. Válaszd ki a dátumot, a
+            helyszínt, és a többit mi intézzük.
           </p>
           <a
             href="#"
             className="inline-flex items-center justify-center px-10 py-4 bg-accent text-accent-foreground font-sans font-semibold text-sm tracking-wide rounded-lg shadow-lg shadow-accent/20 hover:shadow-xl hover:shadow-accent/30 transition-shadow duration-300 active:scale-[0.97] transform"
           >
-            Open the configurator
+            Konfigurátor megnyitása
           </a>
         </div>
       </div>
