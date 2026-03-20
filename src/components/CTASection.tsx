@@ -4,7 +4,7 @@ const CTASection = () => {
   const { ref, isVisible } = useScrollReveal();
 
   return (
-    <section id="configure" ref={ref} className="py-24 lg:py-32 bg-primary">
+    <section id="cta" ref={ref} className="py-24 lg:py-32 bg-primary">
       <div className="container mx-auto px-6 lg:px-12 text-center">
         <div
           className={`max-w-2xl mx-auto space-y-8 transition-all duration-700 ${
@@ -20,7 +20,7 @@ const CTASection = () => {
             helyszínt, és a többit mi intézzük.
           </p>
           <a
-            href="#"
+            href="#configure"
             className="inline-flex items-center justify-center px-10 py-4 bg-accent text-accent-foreground font-sans font-semibold text-sm tracking-wide rounded-lg shadow-lg shadow-accent/20 hover:shadow-xl hover:shadow-accent/30 transition-shadow duration-300 active:scale-[0.97] transform"
           >
             Konfigurátor megnyitása
